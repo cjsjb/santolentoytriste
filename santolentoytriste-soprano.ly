@@ -5,6 +5,7 @@
 \header {
 	title = "Santo lento y triste"
 	tagline = "Coro Juvenil San Juan Bosco"
+	instrument = "Soprano"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
