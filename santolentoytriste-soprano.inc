@@ -13,6 +13,8 @@
 		\clef "treble"
 		\key a \minor
 		R2*2  |
+
+		\transpose c'' c' {
 		e'' 4. ( d'' 16 e'' )  |
 		f'' 2  |
 		%% 5
@@ -85,6 +87,7 @@
 		e'' 2  |
 		R2  |
 		\bar "|."
+		}
 	} % Voice
 
 	\lyricsto "voice 3" \new Lyrics \lyricmode {
