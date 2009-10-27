@@ -1,17 +1,15 @@
-        \context Staff = "Soprano" << 
-            \set Staff.instrumentName = "Soprano"
-            \set Staff.shortInstrumentName = "S."
-            \set Score.skipBars = ##t
-            \set Staff.printKeyCancellation = ##f
-            \new Voice \global
-            \new Voice \globalTempo
+\context Staff = "Soprano" <<
+	\set Staff.instrumentName = "Soprano"
+	\set Staff.shortInstrumentName = "S."
+	\set Score.skipBars = ##t
+	\set Staff.printKeyCancellation = ##f
+	\new Voice \global
+	\new Voice \globalTempo
 
-            \context Voice = "voice 3" {
-                \override Voice.TextScript #'padding = #2.0
-                \override MultiMeasureRest #'expand-limit = 1
+	\context Voice = "voice 3" {
+		\override Voice.TextScript #'padding = #2.0
+		\override MultiMeasureRest #'expand-limit = 1
 
-                \once \override Staff.TimeSignature #'style = #'() \time 2/4
-                
 		\clef "treble"
 		\key a \minor
 		R2*2  |
@@ -87,11 +85,32 @@
 		e'' 2  |
 		R2  |
 		\bar "|."
-            } % Voice
-            \lyricsto "voice 3" \new Lyrics \lyricmode {
-                \override LyricText #'self-alignment-X = #LEFT
-                \set ignoreMelismata = ##t
-                 "Sa-" _ "an-" "to," "sa-" _ "an-" "to," "san-" "to_es" "el" "se-" "ñor" "del" "u-" "ni-" "ver-" "so." "Lle-" "nos" "es-" "tán" "el" "cie-" "lo" "y" "la" "tie-" "rra" "de" "tu" "glo-" "ria" "ho-" "sa-" "an-" "na." "Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo." "Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo." "Ben-" "di-" "to_el" "que" "vie-" "ne_e-" "n_el" "nom-" "bre" "del" "se-" "ñor." "Ho-" "san" "-na_en" "el" "cie-" "lo," "ho-" "sa-" "an-" "na." "Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo." "Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo." _ 
-                \unset ignoreMelismata
-            } % Lyrics 3
-        >> % Staff ends
+	} % Voice
+
+	\lyricsto "voice 3" \new Lyrics \lyricmode {
+		\override LyricText #'self-alignment-X = #LEFT
+		\set ignoreMelismata = ##t
+		%
+		"Sa-" _ "an-" "to," "sa-" _ "an-" "to,"
+		"san-" "to_es" "el" "se-" "ñor" "del" "u-" "ni-" "ver-" "so."
+		%
+		"Lle-" "nos" "es-" "tán" "el" "cie-" "lo" "y" "la" "tie-" "rra"
+		"de" "tu" "glo-" "ria" "ho-" "sa-" "an-" "na."
+		%
+		"Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na,"
+		"ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo."
+		%
+		"Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na,"
+		"ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo."
+		%
+		"Ben-" "di-" "to_el" "que" "vie-" "ne_e-" "n_el" "nom-" "bre" "del" "se-" "ñor."
+		"Ho-" "san" "-na_en" "el" "cie-" "lo," "ho-" "sa-" "an-" "na."
+		%
+		"Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na,"
+		"ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo."
+		%
+		"Ho-" _ "sa-" "an-" "na," "ho-" _ "sa-" "an-" "na,"
+		"ho-" _ "sa-" "an-" "na" "e-" "e-" "n_el" "cie-" "lo." _
+		\unset ignoreMelismata
+	} % Lyrics 3
+>> % Staff ends
