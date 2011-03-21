@@ -1,7 +1,8 @@
 \context ChordNames	\chords {
 	\set majorSevenSymbol = \markup { "maj7" }
+	\set chordChanges = ##t
 	% intro
-	a2:m a2:m
+	a2:m d2:m e2:7 a2:m
 
 	%
 	a2:m d2:m g2 c2
