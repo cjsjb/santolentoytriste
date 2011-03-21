@@ -41,7 +41,7 @@
 		%% 25
 		f' 8 ( e' ) d' ( c' )  |
 		d' 2  |
-		e' 4 ( e' 8 ) d'  |
+		e' 4. d' 8  |
 		e' 4 e'  |
 		a' 8 ( g' ) f' ( e' )  |
 		%% 30
@@ -51,7 +51,7 @@
 		f' 8 ( e' ) d' ( c' )  |
 		d' 2  |
 		%% 35
-		e' 4 ( e' 8 ) d'  |
+		e' 4. d' 8  |
 		e' 4 e'  |
 		r4 r8 e'  |
 		e' 4 d' 8 e'  |
@@ -71,7 +71,7 @@
 		%% 50
 		f' 8 ( e' ) d' ( c' )  |
 		d' 2  |
-		e' 4 ( e' 8 ) d'  |
+		e' 4. d' 8  |
 		e' 4 e'  |
 		a' 8 ( g' ) f' ( e' )  |
 		%% 55
@@ -81,7 +81,7 @@
 		f' 8 ( e' ) d' ( c' )  |
 		d' 2  |
 		%% 60
-		e' 4 ( e' 8 ) d'  |
+		e' 4. d' 8  |
 		e' 4 e' ~  |
 		e' 2  |
 		R2  |
@@ -97,18 +97,18 @@
 		"de" "tu" "glo" -- "ria," "¡ho" -- "san" -- "na!"
 		%
 		"Ho" -- "san" -- "na," "ho" -- "san" -- "na,"
-		"ho" -- "san" -- "na" "en" __ "el" "cie" -- "lo."
+		"ho" -- "san" -- "na" "en" "el" "cie" -- "lo."
 		%
 		"Ho" -- "san" -- "na," "ho" -- "san" -- "na,"
-		"ho" -- "san" -- "na" "en" __ "el" "cie" -- "lo."
+		"ho" -- "san" -- "na" "en" "el" "cie" -- "lo."
 		%
 		"Ben" -- "di" -- "to el" "que" "vie" -- "ne e" -- "n el" "nom" -- "bre" "del" "se" -- "ñor."
 		"Ho" -- "san" "na en" "el" "cie" -- "lo," "ho" -- "san" -- "na."
 		%
 		"Ho" -- "san" -- "na," "ho" -- "san" -- "na,"
-		"ho" -- "san" -- "na" "en" __ "el" "cie" -- "lo."
+		"ho" -- "san" -- "na" "en" "el" "cie" -- "lo."
 		%
 		"Ho" -- "san" -- "na," "ho" -- "san" -- "na,"
-		"ho" -- "san" -- "na" "en" __ "el" "cie" -- "lo."
+		"ho" -- "san" -- "na" "en" "el" "cie" -- "lo."
 	} % Lyrics 3
 >> % Staff ends
