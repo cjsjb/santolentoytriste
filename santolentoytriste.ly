@@ -8,6 +8,12 @@
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
+\paper {
+	#(define line-width (* 7 in))
+	print-first-page-number = ##t
+	ragged-bottom = ##t
+	first-page-number = 1
+}
 global = { 
 	\time 2/4
 	\skip 2*61  %% 1-61
