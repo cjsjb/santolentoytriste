@@ -22,12 +22,14 @@ globalTempo = {
 	\tempo 4 = 70  \skip 2*61 
 }
 \score {
-	\new StaffGroup << % common
+	<<
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "santolentoytriste-acordes.inc"
-		\include "santolentoytriste-soprano.inc"
+		\new StaffGroup <<
+			\include "santolentoytriste-soprano.inc"
+		>>
 		\include "santolentoytriste-cello.inc"
 
 	>> % notes
