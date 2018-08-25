@@ -14,12 +14,12 @@
 	ragged-bottom = ##t
 	first-page-number = 1
 }
-global = { 
+global = {
 	\time 2/4
 	\skip 2*61  %% 1-61
 }
 globalTempo = {
-	\tempo 4 = 70  \skip 2*61 
+	\tempo 4 = 72  \skip 2*61
 }
 \score {
 	<<
@@ -29,12 +29,11 @@ globalTempo = {
 		\include "santolentoytriste-acordes.inc"
 		\new StaffGroup <<
 			\include "santolentoytriste-soprano.inc"
+			\include "santolentoytriste-tenor.inc"
 		>>
 		\include "santolentoytriste-cello.inc"
 
-	>> % notes
+	>>
 
-	\layout {
-		\context { \GrandStaff \accepts "Lyrics" }
-	}
-} % score
+	\layout { }
+}

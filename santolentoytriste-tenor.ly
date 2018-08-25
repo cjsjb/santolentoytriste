@@ -5,7 +5,7 @@
 \header {
 	title = "Santo lento y triste"
 	tagline = "Coro Juvenil San Juan Bosco"
-	instrument = "Soprano"
+	instrument = "Tenor"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
@@ -28,7 +28,7 @@ globalTempo = {
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "santolentoytriste-acordes.inc"
-		\include "santolentoytriste-soprano.inc"
+		\include "santolentoytriste-tenor.inc"
 
 	>>
 
