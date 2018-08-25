@@ -51,8 +51,8 @@
 		r8 f f ( a )  |
 %% 35
 		gis 4. gis 8  |
-		a 4 a  |
-		r4 r8 e  |
+		a 4 a ~  |
+		a 4 r8 e  |
 		e 4 d 8 e  |
 		f 4 f 8 e  |
 %% 40
@@ -81,8 +81,9 @@
 		r8 f f ( a )  |
 %% 60
 		gis 4. gis 8  |
-		a 4 a  |
-		R2*2  |
+		a 4 a ~  |
+		a 2  |
+		R2  |
 		\bar "|."
 	} % Voice
 
@@ -98,7 +99,7 @@
 		"ho" -- "sa..." __ "...en" "el" "cie" -- "lo."
 		%
 		"Ho" -- "san" __ "na," "ho" -- "san" __ "na,"
-		"ho" -- "sa..." __ "...en" "el" "cie" -- "lo."
+		"ho" -- "sa..." __ "...en" "el" "cie" -- "lo." __
 		%
 		"Ben" -- "di" -- "to el" "que" "vie" -- "ne e" -- "n el" "nom" -- "bre" "del" "se" -- "ñor."
 		"Ho" -- "san" "na en" "el" "cie" -- "lo," "ho" -- "san" __ "na."
@@ -107,6 +108,6 @@
 		"ho" -- "sa..." __ "...en" "el" "cie" -- "lo."
 		%
 		"Ho" -- "san" __ "na," "ho" -- "san" __ "na,"
-		"ho" -- "sa..." __ "...en" "el" "cie" -- "lo."
+		"ho" -- "sa..." __ "...en" "el" "cie" -- "lo." __
 	}
 >>
