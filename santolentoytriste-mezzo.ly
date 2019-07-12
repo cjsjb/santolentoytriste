@@ -6,6 +6,7 @@
 	title = "Santo"
 	subtitle = "Lento y triste"
 	tagline = "Coro Juvenil San Juan Bosco"
+	instrument = "Mezzosoprano"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
@@ -23,17 +24,12 @@ globalTempo = {
 	\tempo 4 = 72  \skip 2*61
 }
 \score {
-	<<
+	\new StaffGroup << % common
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "santolentoytriste-acordes.inc"
-		\new StaffGroup <<
-			\include "santolentoytriste-soprano.inc"
-			\include "santolentoytriste-mezzo.inc"
-			\include "santolentoytriste-tenor.inc"
-		>>
-		\include "santolentoytriste-cello.inc"
+		\include "santolentoytriste-mezzo.inc"
 
 	>>
 
