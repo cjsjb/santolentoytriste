@@ -33,9 +33,16 @@ globalTempo = {
 			\include "santolentoytriste-mezzo.inc"
 			\include "santolentoytriste-tenor.inc"
 		>>
-		\include "santolentoytriste-cello.inc"
+		\new StaffGroup <<
+			\include "santolentoytriste-violin.inc"
+			\include "santolentoytriste-cello.inc"
+		>>
 
 	>>
 
-	\layout { }
+	\layout {
+		\context {
+			\RemoveEmptyStaffContext
+		}
+	}
 }
