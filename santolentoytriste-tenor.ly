@@ -3,7 +3,8 @@
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
 \header {
-	title = "Santo lento y triste"
+	title = "Santo"
+	subtitle = "Lento y triste"
 	tagline = "Coro Juvenil San Juan Bosco"
 	instrument = "Tenor"
 }
