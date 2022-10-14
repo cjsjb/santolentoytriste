@@ -87,7 +87,7 @@
 		\bar "|."
 	} % Voice
 
-	\lyricsto "voz-mezzo" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-mezzo" {
 		%
 		"San" __ "to," __ "san" __ "to,"
 		"san" -- "to es" "el" "Se" -- "ñor" "del" "u" -- "ni" -- "ver" -- "so."
