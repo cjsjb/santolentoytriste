@@ -5,6 +5,7 @@
 \header {
 	title = "Santo"
 	composer = "Alfonso Luna Sánchez"
+	copyright = "Copyright © 1990 Alfonso Luna Sánchez"
 	tagline = "Coro Juvenil San Juan Bosco"
 	instrument = "Mezzosoprano"
 }
