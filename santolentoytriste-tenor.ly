@@ -4,7 +4,7 @@
 #(ly:set-option 'point-and-click #f)
 \header {
 	title = "Santo"
-	subtitle = "Lento y triste"
+	composer = "Alfonso Luna Sánchez"
 	tagline = "Coro Juvenil San Juan Bosco"
 	instrument = "Tenor"
 }
